@@ -1,0 +1,49 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main {
+    text-align: center;
+}
+
+.image-container h1 {
+    font-size: 3rem;
+    margin: 20px 0;
+}
+
+.image-container p {
+    font-size: 1.2rem;
+}
+
+.input {
+    margin-top: 20px;
+}
+
+.input .talk {
+    background-color: #555555;
+    color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.input .talk:hover {
+    background-color: #777777;
+}
+
+.input .content {
+    margin-top: 10px;
+    font-size: 1rem;
+}
