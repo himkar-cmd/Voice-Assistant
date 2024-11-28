@@ -2,22 +2,18 @@ Voice Assistant
 A smart voice assistant that can open local applications and websites, perform various tasks, and provide a seamless hands-free experience.
 
 🚀 Features
-Open Local Applications: Launch applications like browsers, text editors, media players, etc.
+Open Local Applications: 
+Launch applications like browsers, text editors, media players, etc.
 Website Navigation: Open websites directly from voice commands via Google Search.
-Custom Commands: Easily extend with personalized commands.
-Voice Recognition: Supports voice input for hands-free operation.
-Natural Language Understanding: Understands and processes conversational commands.
+Custom Commands:
+Easily extend with personalized commands.
+Voice Recognition: 
+Supports voice input for hands-free operation.
+Natural Language Understanding:
+Understands and processes conversational commands.
 🛠️ Technologies Used
-Programming Language: Python (or any other language you're using)
-Voice Recognition: Google Speech Recognition API / SpeechRecognition library
-Text-to-Speech: pyttsx3 / gTTS (Google Text-to-Speech)
-Web Automation: Selenium / Webbrowser module
-Local App Integration: OS and subprocess modules
-📦 Installation
-Prerequisites
-Python (Version 3.x)
-pip (Python package manager)
-Google Speech Recognition API key (if applicable)
+Html , js, and css
+
 Step-by-Step Installation
 Clone the Repository
 
