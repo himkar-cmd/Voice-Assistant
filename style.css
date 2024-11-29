@@ -2,7 +2,7 @@ body {
     margin: 0;  
     padding: 0;  
     font-family: 'Arial', sans-serif;  
-    background-image: url('back.gif');  
+    background-image: url('background.avif');  
     background-size: cover; 
     background-position: center; 
     color: #ffffff; 
@@ -16,7 +16,7 @@ body {
 .main {  
     max-width: 400px;  
     padding: 20px;  
-    background-color: antiquewhite;
+    background-color: rgb(114, 222, 252);
     border-radius: 20px;  
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);  
     transition: transform 0.3s ease, box-shadow 0.3s ease;  
