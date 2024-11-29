@@ -64,8 +64,20 @@ function takeCommand(message) {
     } else if (message.includes('date')) {
         const date = new Date().toLocaleString(undefined, { month: "short", day: "numeric" });
         const finalText = `Today's date is ${date}`;
-        speak(finalText);
-    } else {
+        speak(finalText);}
+        else if (message.includes('calculator')) {
+            window.open('Calculator:///');
+            const finalText = "Opening Calculator";
+            speak(finalText);}
+            else if (message.includes('whatsapp')) {
+                window.open('Whatsapp:///');
+                const finalText = "Opening Whatsapp";
+                speak(finalText);}
+                else if (message.includes('Canva')) {
+                    window.open('Canva:///');
+                    const finalText = "Opening Canva";
+                    speak(finalText);}
+    else {
         const query = encodeURIComponent(message);
         window.open(`https://www.google.com/search?q=${query}`, "_blank");
         const finalText = `I found some information for ${message} on Google`;
