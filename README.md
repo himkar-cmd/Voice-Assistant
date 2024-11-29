@@ -17,20 +17,20 @@ Html , js, and css
 Step-by-Step Installation
 Clone the Repository
 
-bash
+
 Copy code
 git clone https://github.com/himkar-cmd/Voice-Assistant.git
 cd voice-assistant
 Install Dependencies
 
-bash
+
 Copy code
 pip install -r requirements.txt
 Set Up API Keys (if using external services)
 
 Create a .env file in the root directory.
 Add the following keys:
-bash
+
 Copy code
 GOOGLE_API_KEY=your_api_key_here
 ⚙️ Setup
@@ -39,7 +39,7 @@ Configure Commands
 Edit the commands.json (or config.py) to customize your commands.
 Run the Voice Assistant
 
-bash
+
 Copy code
 python main.py
 🧪 Usage

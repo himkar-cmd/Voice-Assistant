@@ -69,18 +69,14 @@ function takeCommand(message) {
             window.open('Calculator:///');
             const finalText = "Opening Calculator";
             speak(finalText);}
-            else if (message.includes('whatsapp')) {
+        else if (message.includes('whatsapp')) {
                 window.open('Whatsapp:///');
                 const finalText = "Opening Whatsapp";
                 speak(finalText);}
-                else if (message.includes('Canva')) {
-                    window.open('Canva:///');
-                    const finalText = "Opening Canva";
-                    speak(finalText);}
-    else {
-        const query = encodeURIComponent(message);
-        window.open(`https://www.google.com/search?q=${query}`, "_blank");
-        const finalText = `I found some information for ${message} on Google`;
-        speak(finalText);
+        else {
+              const query = encodeURIComponent(message);
+              window.open(`https://www.google.com/search?q=${query}`, "_blank");
+              const finalText = `I found some information for ${message} on Google`;
+              speak(finalText);
     }
 }
